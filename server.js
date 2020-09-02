@@ -1,23 +1,37 @@
+// dependencies
+// =============================================================
 var express = require("express");
 var path = require("path");
 var dbJson = ("db/db.json")
 
 
+express.static("public/notes.html")
+
 // Sets up the Express App
 // =============================================================
-// app.use(express.urlencoded({ extended: true }));app.use(express.json());app.use(express.static('public'));
 var app = express();
 var PORT = 3350;
 
+// set up the Express ap to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+// Routes
+// =============================================================
+
+//   still need get * to return to index.html file
+app.get("/", function(req, res) {
+  res.sendFile(path.join(__dirname, "public/index.html"));
+});
+
 app.get("/notes", function(req, res) {
-    res.sendFile(path.join(__dirname, "notes.html"));
+    res.sendFile(path.join(__dirname, "public/notes.html"));
   });
   
   app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
 
-//   still need get * to return to index.html file
 
 
 // this should read the db.json file
