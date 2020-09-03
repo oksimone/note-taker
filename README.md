@@ -1,7 +1,7 @@
 # note-taker
 
 ## Description
-    For my 10th assignment in my Full-Stack coding bootcamp, I had to create an application that can be used to write, save, and delete notes. The application will use an express backend and save and retrieve note data from a JSON file.
+   <p> For my 10th assignment in my Full-Stack coding bootcamp, I had to create an application that can be used to write, save, and delete notes. The application will use an express backend and save and retrieve note data from a JSON file.<p>
 
   ## Table of Contents
 
