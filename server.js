@@ -13,7 +13,7 @@ const id = require("uniqid")
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = 3350;
+var PORT = process.env.PORT || 3350;
 app.use(express.static("public"))
 
 // set up the Express ap to handle data parsing
