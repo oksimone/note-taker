@@ -1,15 +1,15 @@
 # note-taker
 
 ## Description
-  create a readme generator
+    For my 10th assignment in my Full-Stack coding bootcamp, I had to create an application that can be used to write, save, and delete notes. The application will use an express backend and save and retrieve note data from a JSON file.
 
   ## Table of Contents
 
   * [Installation](#Installation)
   * [Usage](#usage)
   * [License](#License)
-  * [Contributing](#Contribution)
-  * [Tests](#Test)
+  * [Link](#Link)
+
   * [Questions](#Questions)
 
   ## Installation
@@ -17,18 +17,16 @@
   npm i
 
   ## Usage
-  enjoy
+  GIF of the deployed site
+  ![](assets/screenshot%203.png)
 
   ## License
 
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  ## Contribution
-  n/a
+  ## Link
+  [Click Here to see the deployed site!](https://oksimone.github.io/note-taker)
 
-  ## Test
-
-  npm test
 
   ## Questions
   If you have any questions, please contact me on [GitHub](http://github.com/oksimone), Or, email me at ksworthy22@gmail.com
