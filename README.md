@@ -5,24 +5,18 @@
 
   ## Table of Contents
 
-  * [Installation](#Installation)
+  
   * [Usage](#usage)
   * [License](#License)
   * [Link](#Link)
-
   * [Questions](#Questions)
 
-  ## Installation
-
-  npm i
 
   ## Usage
   GIF of the deployed site
   ![](https://github.com/oksimone/note-taker/blob/master/public/assets/notetaker.gif)
 
-  ## License
-
-![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+ 
 
   ## Link
   [Click Here to see the deployed site!](https://desolate-forest-41649.herokuapp.com/notes)
