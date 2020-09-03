@@ -25,7 +25,7 @@
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Link
-  [Click Here to see the deployed site!](https://oksimone.github.io/note-taker)
+  [Click Here to see the deployed site!](https://desolate-forest-41649.herokuapp.com/notes)
 
 
   ## Questions
