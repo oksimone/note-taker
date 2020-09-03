@@ -18,7 +18,7 @@
 
   ## Usage
   GIF of the deployed site
-  ![](assets/screenshot%203.png)
+  ![](https://github.com/oksimone/note-taker/blob/master/public/assets/notetaker.gif)
 
   ## License
 
